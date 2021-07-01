@@ -9,11 +9,11 @@ namespace Convoy.ErrorHandling
     public class ConvoyException : Exception
     {
         [JsonInclude]
-        [JsonProperty("ErrorMessage")]
+        [JsonProperty("errorMessage")]
         public string ErrorMessage { get; private set; }
 
         [JsonInclude]
-        [JsonProperty("StatusCode")]
+        [JsonProperty("statusCode")]
         public HttpStatusCode StatusCode { get; private set; }
 
         public ConvoyException(string errorMessage, HttpStatusCode statusCode, string errorStackTrace = null) : base(errorMessage)
