@@ -1,3 +1,4 @@
+using Convoy.ErrorHandling;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -37,7 +38,12 @@ namespace Convoy.Example
             }
 
             // Enable Convoy error handling
-            app.UseMiddleware(typeof(Convoy.ErrorHandling.Middleware));
+            app.UseConvoyErrorHandlingMiddleware(new ConvoyErrorHandlingMiddlewareOptions()
+            {
+                ErrorLoggingFunction = ErrorReporter.LogErrorAsync,
+                LogAllErrors = true, 
+                LogInternalServerErrors = true
+            });
 
             app.UseHttpsRedirection();
 
