@@ -52,7 +52,7 @@ namespace Convoy.ErrorHandling
             
             // This is to prevent reverse engineering attacks
             if(exception.StatusCode == HttpStatusCode.Unauthorized || exception.StatusCode == HttpStatusCode.InternalServerError)
-                Thread.Sleep(new Random((int) (((DateTime.UtcNow-DateTime.UnixEpoch).TotalMilliseconds)%4.393)).Next(500,5000));
+                Thread.Sleep(new Random((int) (((DateTime.UtcNow-new DateTime(1970, 1, 1)).TotalMilliseconds)%4.393)).Next(500,5000));
            
             if (log && _options.LogAllErrors)
                 LogErrorAsync(context, exception);
