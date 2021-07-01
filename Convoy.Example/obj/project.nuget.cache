@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nrf78ZNFJJ7Fm0Irjkhg4Zf7nqNj1zySjaOTJeJ63YeAEACF1iro/lqNQQLTPjuW42az1YKXREulVDLop0lNbg==",
+  "dgSpecHash": "oSskL8tCBPSLPLH7EarNXGUf+a29D3WvH4/JpBc9quwCW4FQn9/8g2P4khHew1dZTS72L74UmbjMNkEH83UhxA==",
   "success": true,
   "projectFilePath": "/Users/nickorlow/Cav-Cash/Convoy/Convoy.Example/Convoy.Example.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,8 @@
     "/Users/nickorlow/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "/Users/nickorlow/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
     "/Users/nickorlow/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "/Users/nickorlow/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/Users/nickorlow/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/Users/nickorlow/.nuget/packages/system.text.json/5.0.2/system.text.json.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

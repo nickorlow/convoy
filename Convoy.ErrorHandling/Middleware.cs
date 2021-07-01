@@ -106,7 +106,7 @@ namespace Convoy.ErrorHandling
         /// LogAllErrors = false
         /// LogInternalServerErrors = true
         /// </summary>
-        public static ConvoyErrorHandlingMiddlewareOptions Default => new ();
+        public static ConvoyErrorHandlingMiddlewareOptions Default => new ConvoyErrorHandlingMiddlewareOptions();
         
         public ConvoyErrorHandlingMiddlewareOptions()
         {
