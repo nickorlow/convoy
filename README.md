@@ -14,8 +14,8 @@ This build is currently a development build working towards being version 1.0 (S
 ## Features
 
 #### Current
-- Custom error handling middleware
-- Custom exceptions
+- Error handling middleware
+- Exceptions with Http status codes for easy application writing
 
 #### Planned
 - Allow people to have their own functions called from middleware for logging purposes
